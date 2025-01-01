@@ -48,7 +48,9 @@ section {
 }
 
 .star-img {
-    padding-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
 }
 
 .gap-8 {
@@ -302,7 +304,7 @@ section {
     padding-left: 30px;
 }
 
-.name {
+.name-3 {
     font-family: "Rubik", sans-serif;
     font-size: 18px;
     font-weight: 500;
