@@ -346,8 +346,8 @@
             infinite: true,
             slidesToShow: 3,
             // arrows: false,
-            // autoplay: true,
-            // autoplaySpeed: 800,
+            autoplay: true,
+            autoplaySpeed: 800,
             centerMode: true,
             variableWidth: true,
             responsive: [
@@ -400,11 +400,18 @@
                         arrows: true,
                         nextArrow: true,
                         prevArrow: true,
-                        autoplay: true,
-                        autoplaySpeed: 700, prevArrow: ".prev",
+                        prevArrow: ".prev",
                         nextArrow: ".next",
                     }
                 },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode:true
+                    }
+                }
             ]
         });
 
