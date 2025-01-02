@@ -195,53 +195,6 @@ section {
     margin-bottom: 52px;
 }
 
-@media (max-width:1200px) {
-    .prev {
-        position: absolute;
-        top: 167px;
-        left: 44%;
-
-    }
-
-    .next {
-        position: absolute;
-        top: 167px;
-        right: 45%;
-    }
-}
-
-@media (max-width:700px) {
-    .prev {
-        position: absolute;
-        top: 167px;
-        left: 44%;
-
-    }
-
-    .next {
-        position: absolute;
-        top: 167px;
-        right: 39%;
-    }
-}
-
-@media (max-width:576px) {
-    .prev {
-        position: absolute;
-        top: 167px;
-        left: 44%;
-
-    }
-
-    .next {
-        position: absolute;
-        top: 167px;
-        right: 28%;
-    }
-}
-
-
-
 /******* section-2 *******/
 
 .justify-content {
@@ -455,5 +408,62 @@ section {
 
     .slick-dots {
         display: none !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .prev {
+        position: absolute;
+        top: 167px;
+        left: 44%;
+
+    }
+
+    .next {
+        position: absolute;
+        top: 167px;
+        right: 45%;
+    }
+}
+
+@media (max-width:700px) {
+    .prev {
+        position: absolute;
+        top: 167px;
+        left: 44%;
+
+    }
+
+    .next {
+        position: absolute;
+        top: 167px;
+        right: 39%;
+    }
+}
+
+@media (max-width:576px) {
+    .prev {
+        position: absolute;
+        top: 167px;
+        left: 44%;
+    }
+
+    .next {
+        position: absolute;
+        top: 167px;
+        right: 28%;
+    }
+
+}
+
+@media (max-width:400px) {
+    .name-3 {
+        padding-left: 0px;
+        margin-left: 5px;
+    }
+
+    .country {
+        padding-left: 0px;
+        margin-left: 5px;
     }
 }
