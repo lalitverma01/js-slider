@@ -17,7 +17,7 @@
 
 <body>
     <section class="section-1 flex-direction  bg-img">
-        <div class="w-100">
+        <div class="w-100 mt-291">
             <div class="my-slider-1">
                 <div class="card">
                     <div class="d-flex align-item gap-8">
@@ -136,7 +136,7 @@
             </div>
 
         </div>
-        <div class="container w-100 mt-311">
+        <div class="container w-100 mt-311 position-relative mb-52">
             <div class="my-slider-2">
                 <div class="card-2">
                     <img src="./assets/images/svg/ralph-svg.svg" alt="ralph-svg">
@@ -388,7 +388,8 @@
                         arrows: true,
                         infinite: true,
                         prevArrow: true,
-                        nextArrow: true
+                        nextArrow: true, prevArrow: ".prev",
+                        nextArrow: ".next",
                     }
                 },
                 {
@@ -400,7 +401,8 @@
                         nextArrow: true,
                         prevArrow: true,
                         autoplay: true,
-                        autoplaySpeed: 700
+                        autoplaySpeed: 700, prevArrow: ".prev",
+                        nextArrow: ".next",
                     }
                 },
             ]

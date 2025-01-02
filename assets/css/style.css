@@ -39,6 +39,10 @@ section {
     width: 100%;
 }
 
+.mt-291 {
+    margin-top: 291px;
+}
+
 .d-flex {
     display: flex;
 }
@@ -150,7 +154,7 @@ section {
     cursor: pointer;
     position: absolute;
     transform: translateY(-155px);
-    left: 5%;
+    left: -10%;
 }
 
 .prev:hover {
@@ -172,7 +176,7 @@ section {
     cursor: pointer;
     position: absolute;
     transform: translateY(-155px);
-    right: 5%;
+    right: -10%;
 }
 
 .next:hover {
@@ -183,15 +187,60 @@ section {
     fill: white;
 }
 
+.position-relative {
+    position: relative;
+}
+
+.mb-52 {
+    margin-bottom: 52px;
+}
+
 @media (max-width:1200px) {
     .prev {
-        display: none;
+        position: absolute;
+        top: 167px;
+        left: 44%;
+
     }
 
     .next {
-        display: none;
+        position: absolute;
+        top: 167px;
+        right: 45%;
     }
 }
+
+@media (max-width:700px) {
+    .prev {
+        position: absolute;
+        top: 167px;
+        left: 44%;
+
+    }
+
+    .next {
+        position: absolute;
+        top: 167px;
+        right: 39%;
+    }
+}
+
+@media (max-width:576px) {
+    .prev {
+        position: absolute;
+        top: 167px;
+        left: 44%;
+
+    }
+
+    .next {
+        position: absolute;
+        top: 167px;
+        right: 28%;
+    }
+}
+
+
 
 /******* section-2 *******/
 
