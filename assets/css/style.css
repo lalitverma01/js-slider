@@ -93,7 +93,7 @@ section {
 
 .section-1 .slick-track {
     display: flex !important;
-    gap: 24px !important;
+    gap: 5px !important;
 }
 
 .section-1 .slick-dots li button {
@@ -115,6 +115,8 @@ section {
     box-shadow: 0px 2px 44px 3px #5757571A;
     padding: 20px;
     background: #FFFFFF;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .flex-direction {
